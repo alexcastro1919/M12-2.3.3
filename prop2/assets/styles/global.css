@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-text-color: #6320ee;
+  --secondary-text-color: rgb(114, 114, 226);
+  --tertiary-text-color: rgb(40, 40, 131);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3em;
+
+  padding: 0;
+  margin: 0;
+
+  min-height: 100vh;
+
+  font-family: Poppins, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 0.5em 1em;
+
+  box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+    rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+    rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+    rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+    rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+    rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+    rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+}
+
+header img {
+  max-height: 4em;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+header nav li {
+  list-style-type: none;
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  position: relative;
+  color: rgb(185, 162, 152);
+
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(83, 58, 47);
+
+  padding: 1em;
+}
+
+.btn-primary {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+
+  color: white;
+  background-color: var(--primary-text-color);
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+  padding: 0.5em 1em;
+}
+
+p {
+  margin: 0;
+}

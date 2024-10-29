@@ -1,0 +1,42 @@
+header {
+  justify-content: start;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 5em;
+}
+
+main h1 {
+  font-size: 4em;
+  margin: 0;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+article {
+  width: 70em;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+
+  width: 100%;
+}
+
+section > span {
+  width: 100%;
+  padding: 2em 0;
+
+  background-color: rgb(83, 58, 47);
+  color: white;
+
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+}

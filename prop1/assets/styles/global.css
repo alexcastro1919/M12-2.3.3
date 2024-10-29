@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "DM SANS", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  margin: 0;
+  padding: 0;
+
+  background-image: url("/assets/images/bg_orange_texture.webp");
+  background-size: contain;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.5em 3em;
+}
+
+header img {
+  max-height: 4em;
+}
+
+svg {
+  width: 3em;
+  height: 3em;
+}
+
+svg > path {
+  stroke: white;
+  fill: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+nav:not(.hide) {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  height: 100vh;
+  width: 30em;
+
+  background-image: url("/assets/images/bg_purple_noise.png");
+  background-size: cover;
+
+  box-sizing: border-box;
+  padding: 0.5em 2.5em 0 1.5em;
+}
+
+nav ul {
+  padding: 0;
+  margin-top: 3.5em;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+nav a.active {
+  color: #d7adf0;
+}
+
+nav svg {
+  width: 4em;
+  height: 4em;
+}
+
+.button {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: white;
+
+  background-image: url("/assets/images/bg_purple_noise.png");
+  background-size: cover;
+}
+
+.button > svg {
+  padding: 1em 1em;
+  margin-right: 1em;
+  border-right: 1px dashed white;
+}
+
+.button > span {
+  padding-right: 1em;
+  font-size: 1.5em;
+  font-weight: 600;
+}

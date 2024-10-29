@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 100vh;
+  gap: 3em;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+
+  gap: 0 2em;
+  max-width: 40em;
+}
+
+main h1 {
+  margin: 0;
+  font-size: 8em;
+  font-weight: 800;
+  color: white;
+}
+
+main h2 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #b9420b;
+  text-align: center;
+}
